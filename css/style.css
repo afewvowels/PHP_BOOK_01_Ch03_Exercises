@@ -1,0 +1,120 @@
+@charset "utf-8"
+
+/*
+  Palette
+  Light blue: #246F7D;
+  Yellow-green: #999A1B;
+  Green: #55A31A;
+  Brown: #703B35;
+  Pink: #B1429C;
+  White: #F2F6EF;
+*/
+
+html {
+
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+  background-color: #B1429C;
+  color: #F2F6EF;
+  font-family: 'Oswald', sans-serif;
+  min-height: 100vh;
+}
+
+fieldset {
+  border: 2px solid #F2F6EF;
+  margin-bottom: 15px;
+}
+
+footer {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  margin: 0 auto;
+  padding: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 1.5em;
+}
+
+header {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+hr {
+  border: 1px solid #F2F6EF;
+  width: 90%;
+}
+
+legend {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+section {
+  margin: 0 auto;
+  padding: 0;
+  width: 400px;
+}
+
+section > fieldset > div {
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
+
+#cc_number {
+  background-color: #B1429C;
+  border: 1px solid #F2F6EF;
+  color: #F2F6EF;
+  width: 210px;
+  height: 21px;
+}
+
+#cc_number::placeholder {
+  color: #F2F6EF;
+  padding-left: 5px;
+}
+
+#exercise_01 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.input_entry_form {
+  background-color: #B1429C;
+  border: 1px solid #F2F6EF;
+  color: #F2F6EF;
+  width: 100%;
+  height: 21px;
+}
+
+.input_entry_form::placeholder {
+  color: #F2F6EF;
+  padding-left: 5px;
+}
+
+
+.submit_button {
+  background-color: #B1429C;
+  color: #F2F6EF;
+  border: 1px solid #F2F6EF;
+  width: 100px;
+  height: 25px;
+}
+
+.submit_button:active {
+  background-color: #F2F6EF;
+  color: #B1429C;
+  border: 1px solid #F2F6EF;
+}
